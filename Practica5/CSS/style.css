@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.contenedor {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  border: 1px solid #000;
+}
+
+.menu {
+  width: 20%;
+  padding: 10px;
+  border-right: 1px solid #000;
+}
+
+.menu ul {
+  list-style: disc;
+  padding-left: 150px;
+   margin-top: 300px;  
+}
+
+.contenido {
+  width: 80%;
+  padding: 10px;
+}
+
+.bloque {
+  border: 1px solid #000;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.fila {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.fila img {
+  width: 80px;
+}
+
+footer {
+  border-top: 1px solid #000;
+  padding-top: 10px;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+body {
+  background-color: #ccc; 
+}
+
+.bloque {
+  background-color: #63bdbd;
+}
